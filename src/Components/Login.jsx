@@ -3,7 +3,10 @@ import React from "react";
 const Login = () => {
   function handleClick() {
     const clientId = "4df78f71141e40ec84e9faad0273d945";
-    const redirectURL = "http://localhost:5173/";
+    // const redirectURL = "http://localhost:5173/";
+    const redirectURL =
+      "https://650e9d826686c80bbc9ab781--sweet-moxie-f5c56f.netlify.app";
+
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-email",
